@@ -28,7 +28,7 @@ int numero1, numero2, numero3;
 		{
 			System.out.printf("O número %d é maior.", numero3);
 		}
-
+kb.close();
 	}
 
 }

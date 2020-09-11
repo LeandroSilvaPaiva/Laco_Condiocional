@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Tenario {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner kb = new Scanner(System.in);
 		int valor;
         System.out.println("Digite 1-Masculino, 2-Feminino e 3-Outros: ");
