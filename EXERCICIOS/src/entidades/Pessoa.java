@@ -5,6 +5,25 @@ public class Pessoa {
 	private String endereco;
 	private int telefone;
 	
+	
+	public Pessoa() {
+		
+	}
+	public Pessoa(String nome, String endereco, int telefone) {
+		super();
+		this.nome = nome;
+		this.endereco = endereco;
+		this.telefone = telefone;
+	}
+	public Pessoa(String nome) {
+		super();
+		this.nome = nome;
+	}
+	public Pessoa(String nome, String endereco) {
+		super();
+		this.nome = nome;
+		this.endereco = endereco;
+	}
 	public String getNome() {
 		return nome;
 	}
@@ -23,22 +42,6 @@ public class Pessoa {
 	public void setTelefone(int telefone) {
 		this.telefone = telefone;
 	}
-	public Pessoa(String nome, String endereco, int telefone) {
-		super();
-		this.nome = nome;
-		this.endereco = endereco;
-		this.telefone = telefone;
-	}
-	public Pessoa(String nome) {
-		super();
-		this.nome = nome;
-	}
-	public Pessoa(String nome, String endereco) {
-		super();
-		this.nome = nome;
-		this.endereco = endereco;
-	}
-	
 	
 
 }
