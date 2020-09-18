@@ -2,18 +2,18 @@ package entidades;
 
 public class Administrador extends Pessoa {
 	
-	private double ajudaCusto;
+	private String ajudaCusto;
 
-	public Administrador(String nome, String endereco, int telefone, double ajudaCusto) {
+	public Administrador(String nome, String endereco, String telefone, String ajudaCusto) {
 		super(nome, endereco, telefone);
 		this.ajudaCusto = ajudaCusto;
 	}
 
-	public double getAjudaCusto() {
+	public String getAjudaCusto() {
 		return ajudaCusto;
 	}
 
-	public void setAjudaCusto(double ajudaCusto) {
+	public void setAjudaCusto(String ajudaCusto) {
 		this.ajudaCusto = ajudaCusto;
 	}
 	

@@ -7,9 +7,9 @@ import entidades.Pessoa;
 public class Final {
 
 	public static void main(String[] args) {
-		Pessoa novaPessoa = new Pessoa("LEANDRO", "RUA UM",984612578);
+		Pessoa novaPessoa = new Pessoa("LEANDRO", "RUA UM", "984612578");
 		Fornecedor novoFornecedor = new Fornecedor("LEANDRO", 300, 200);
-		Administrador novoAdm = new Administrador("LEANDRO", "RUA UM",984612578, 300);
+		Administrador novoAdm = new Administrador("LEANDRO", "RUA UM","984612578", "300");
 				
 		System.out.println("PESSOA:");	
 		System.out.println(novaPessoa.getNome());
@@ -23,7 +23,7 @@ public class Final {
 		novoFornecedor.obterSaldo();
 		System.out.println(" ");
 		System.out.println(" ");
-	    System.out.println("ADMINISTRADOR:");
+	    System.out.println("ADMINISTRADOR");
 		System.out.println(novoAdm.getNome());
 		System.out.println(novoAdm.getEndereco());
 		System.out.println(novoAdm.getTelefone());
